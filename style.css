@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+main figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+figure img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 6%;
+    border: 1px solid #00e0ff;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    
+}
+
+figcaption{
+    color: gold;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+header{
+    background-color: #222;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    font-size: 2.8em;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin-right: 1.3em;
+    font-size: 1.5em;
+}
+
+header h1,a {
+    color: #00e0ff;
+    transition: 0.2s ease-in-out;
+}
+
+header h1:hover, a:hover{
+    color: #fff;
+}
+
+footer{
+    background-color: #222;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column ;
+}
+
+.main-content h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+.main-content .text p{
+    width: 95%;
+    font-size: 1.2em;
+    font-weight: 300;
+
+}
+
+.techs .cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cards-container .card {
+    
+    height: 120px;
+    padding: 10px;
+   
+}
+
+.cards-container .card i{
+    font-size: 50px;
+}
+
+.card:hover{
+    color: gold;
+}
